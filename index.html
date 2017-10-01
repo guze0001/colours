@@ -13,94 +13,116 @@
     -->
     <meta name="viewpoint" content="width=device-width" />
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
-        html{
+        
+        html {
             font-size: 16px;
             line-height: 1.6;
             font-family: Helvetica, Arial, sans-serif;
         }
-        html,body{
+        
+        html,
+        body {
             background-color: #9ACC8A;
             color: #FAFFF8;
         }
-        h1{
+        
+        h1 {
             font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
             font-size: 3.998rem;
-            padding:1rem 2rem;
+            padding: 1rem 2rem;
         }
-        h2{
+        
+        h2 {
             font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
             font-size: 2.827rem;
-            padding:1rem 2rem;
+            padding: 1rem 2rem;
         }
-        nav ul{
-            padding:1rem 0;
+        
+        nav {
+            float: left;
+            width: 38.2%;
+            /*            background-color: #C0FFAC;*/
+            background-color: #7D7F7C;
         }
-        nav li{
+        
+        nav ul {
+            padding: 1rem 0;
+        }
+        
+        nav li {
             font-size: 1.999rem;
             list-style-type: none;
         }
-        nav li>a{
+        
+        nav li>a {
             display: block;
             text-decoration: none;
             border-bottom: 0.2rem solid #7D7F7C;
             padding: 0.2rem 2rem;
-            color: #7D7F7C;
-        }
-        nav li>a:hover,
-        nav li>a:active{
+           
             color: #FAFFF8;
         }
-        nav li.selected{
+        
+        nav li>a:hover,
+        nav li>a:active {
+            color: #C0FFAC;
+        }
+        
+        nav li.selected {
             background-color: #607F56;
         }
-                nav li.selected a{
-            color: #FAFFF8;
+        
+        nav li.selected a {
+            color: #C0FFAC;
         }
-        p{
+        
+        p {
             font-size: 1.414rem;
-            padding:0.5rem 2rem;
+            padding: 0.5rem 2rem;
         }
-        main p:last-child{
+        
+        main p:last-child {
             padding-bottom: 4rem;
         }
-        .wrapper{
+        
+        .wrapper {
             width: 80%;
             max-width: 1200px;
             margin: 0 auto;
             background-color: #607F56;
         }
-        header{
-            width:100%;
+        
+        header {
+            width: 100%;
             border-bottom: 1rem solid #9ACC8A;
             background-color: #607F56;
         }
-        nav{
-            float:left;
-            width: 38.2%;
-            background-color: #C0FFAC;
-        }
-        main{
-            float:right;
+        
+        main {
+            float: right;
             width: 61.8%;
             background-color: #607F56;
         }
-        footer{
-            clear:both;
+        
+        footer {
+            clear: both;
             width: 100%;
             border-top: 0.5rem solid #9ACC8A;
         }
-        footer p{
+        
+        footer p {
             font-size: 1rem;
             padding: 2rem;
             color: #FAFFF8;
         }
     </style>
 </head>
+
 <body>
     <div class="wrapper">
         <header>
